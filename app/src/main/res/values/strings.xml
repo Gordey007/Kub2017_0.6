@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Второе мнение</string>
+
+    <string name="photo">Photo</string>
+
+    <string-array name="doc">
+        <item>Нейрохирург</item>
+        <item>Окулист</item>
+        <item>Логопед</item>
+        <item>Лор</item>
+        <item>Педиатр</item>
+        <item>Психиатр</item>
+        <item>Психолог</item>
+        <item>Хирург</item>
+    </string-array>
+
+
+    <string-array name="type_of_symptoms">
+        <item>Выберите вид симптома</item>
+        <item>психические расстройства</item>
+        <item>Боли</item>
+    </string-array>
+
+    <string-array name="symptoms">
+        <item>Выберите симптом</item>
+        <item>Голова</item>
+        <item>Груди</item>
+        <item>Конечности</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white">
+
+
+    <Button
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Профиль"
+        android:layout_marginTop="59dp"
+        style="@style/Button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/app"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Отправить заявку"
+        style="@style/Button"
+        android:layout_below="@+id/request1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/neor"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Нейоронная сеть"
+        style="@style/Button"
+        android:layout_below="@+id/app"
+        android:layout_alignLeft="@+id/app"
+        android:layout_alignStart="@+id/app" />
+
+    <Button
+        android:id="@+id/request1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заявки"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/account"
+        android:layout_centerHorizontal="true"
+        style="@style/Button"/>
+</RelativeLayout>

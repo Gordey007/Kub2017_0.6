@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/laik2"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/txtfio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ким Чен"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/laik2"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView12"
+        android:layout_alignStart="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dislaik2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#13e404"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#ff0a12"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пенелопа Круз"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="37"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#13e404"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#ff0a12"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/laik2"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/imageView12"
+        android:layout_alignStart="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dislaik2"
+        android:layout_below="@+id/imageView10"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dislaik2"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбрать"
+        style="@style/Button"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбрать"
+        style="@style/Button"
+        android:layout_below="@+id/textView14"
+        android:layout_alignRight="@+id/checkBox3"
+        android:layout_alignEnd="@+id/checkBox3" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        style="@style/Button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="22dp"
+        android:text="Токко Ёнджэ"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="14dp"
+        android:text="23"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#13e404"
+    />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="15dp"
+        android:text="0"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#ff0a12" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбрать"
+        style="@style/Button"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toRightOf="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7" />
+
+</RelativeLayout>

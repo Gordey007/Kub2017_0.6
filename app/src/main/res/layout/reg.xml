@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white">
+
+
+    <EditText
+        android:id="@+id/fio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ФИО"
+        style="@style/Button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Логин"
+        style="@style/Button"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/address"
+        android:layout_alignLeft="@+id/birth"
+        android:layout_alignStart="@+id/birth" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Пароль"
+        style="@style/Button"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/login"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignStart="@+id/login" />
+
+    <Button
+        android:id="@+id/btnregg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Зарегистрироваться"
+        style="@style/Button"
+        android:layout_below="@+id/editText6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:id="@+id/birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Дата рождения"
+        style="@style/Button"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/sex"
+        android:layout_alignLeft="@+id/fio"
+        android:layout_alignStart="@+id/fio" />
+
+    <Spinner
+        android:id="@+id/sex"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:hint="Выбрать пол"
+        android:entries="@array/sex"
+        style="@style/Button"
+        android:layout_below="@+id/fio"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/birth"
+        android:layout_centerHorizontal="true"
+        android:hint="Город"
+        style="@style/Button"/>
+
+
+</RelativeLayout>

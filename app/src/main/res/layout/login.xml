@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_centerVertical="true"
+         android:padding="10dp"
+         android:id="@+id/linearLayout">
+
+          <!--
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr.House opinion"
+                        android:typeface="sans"
+                        android:textSize="35sp"
+                        android:textColor="#00aa55"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:id="@+id/test"/>
+          -->
+
+
+     </LinearLayout>
+
+     <EditText
+         android:id="@+id/login"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Логин"
+         style="@style/Button"
+         android:layout_marginBottom="36dp"
+         android:layout_above="@+id/pass"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <EditText
+         android:id="@+id/pass"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Пароль"
+         android:inputType="textPassword"
+         style="@style/Button"
+         android:layout_above="@+id/linearLayout"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:layout_marginBottom="15dp" />
+
+     <Button
+         android:id="@+id/btnlogin"
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:text="Войти"
+         style="@style/Button"
+         android:layout_marginTop="14dp"
+         android:layout_below="@+id/linearLayout"
+         android:layout_centerHorizontal="true" />
+
+     <Button
+         android:id="@+id/btnreg"
+         android:layout_width="220dp"
+         android:layout_height="wrap_content"
+         android:text="Зарегистрироваться"
+         style="@style/Button"
+         android:layout_marginTop="42dp"
+         android:layout_below="@+id/btnlogin"
+         android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ФИО"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Дата рождения"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/txtsex"
+        android:layout_alignLeft="@+id/txtsex"
+        android:layout_alignStart="@+id/txtsex" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Пол"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/txtfio"
+        android:layout_alignLeft="@+id/txtfio"
+        android:layout_alignStart="@+id/txtfio" />
+
+    <TextView
+        android:id="@+id/txtfio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Васильев Гордей Владимирович"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/txtdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="17.04.1997"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+
+    <TextView
+        android:id="@+id/txtsex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="Мужcкой"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/txt"
+        android:layout_alignLeft="@+id/txt"
+        android:layout_alignStart="@+id/txt" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="Город"
+        android:textColor="#000"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/txtdata"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="Комсомольск-на-Амуре"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/edit25"
+        style="@style/Button"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit25"
+        style="@style/Button"
+        android:layout_alignTop="@+id/txt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit25"
+        style="@style/Button"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit25"
+        style="@style/Button"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

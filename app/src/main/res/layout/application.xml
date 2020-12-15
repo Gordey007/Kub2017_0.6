@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white">
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Далее"
+        android:textStyle="bold"
+        style="@style/Button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <ImageButton
+        android:id="@+id/file"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/add_file35"
+        style="@style/Button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/doc"
+        style="@style/Button"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="История болезни"
+        android:inputType="textPersonName"
+        style="@style/Button"
+        android:layout_below="@+id/doc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/btnPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/add_camera30"
+        android:layout_below="@+id/file"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:onClick="onClickPhoto"
+        style="@style/Button"/>
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/btnPhoto"
+        android:layout_alignRight="@+id/btnPhoto"
+        android:layout_alignEnd="@+id/btnPhoto" />
+
+
+
+
+</RelativeLayout>
